@@ -7,7 +7,7 @@ const input = document.getElementById("input");
 
 // Classes Names 
 const CHECK = "fa-check-circle";
-const UNCHECK = "fa-check-thin";
+const UNCHECK = "fa-circle-thin";
 const LINE_THROUGH = "lineThrough";
 
 // Variables
@@ -49,13 +49,13 @@ dateElement.innerHTML = today.toLocaleDateString("en-US", options);
 // add to do function
 function addToDo(toDo, id, done, trash){
 
-  if(trash){return;}
+  if(trash) { return; }
 
   const DONE = done ? CHECK : UNCHECK;
   const LINE = done ? LINE_THROUGH : "";
 
 const item = `<li class="item">
-          <i class="fa ${DONE} fa-circle co" job="complete" id="${id}"></i>
+          <i class="fa ${DONE} co" job="complete" id="${id}"></i>
           <p class="text ${LINE}">${toDo}</p>
           <i class="fa fa-trash-o de" job="delete" id="${id}"></i>
              </li>
