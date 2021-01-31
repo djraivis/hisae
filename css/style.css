@@ -17,12 +17,16 @@ body{
 .header{
   width: 380px;
   height:200px;
-  background-image: url('../img/bg2.jpg');
+  background-image: url('../img/todo1.jpg');
   background-size: 100% 200%;
   background-repeat: no-repeat;
   border-radius: 15px 15px 0 0;
   position: relative;
-  background-color: green;
+}
+.overlay{
+  background: rgba(1, 0, 12, 0.363);
+  mix-blend-mode: overlay;
+  border-radius: inherit;
 }
 .clear{
   width : 30px;
@@ -40,22 +44,27 @@ body{
   text-shadow: 1px 3px 5px #000;
   transform: rotate(45deg);
 }
+
+.hisae{
+  position: relative;
+  z-index: 10;
+  padding-left: 15px;
+  padding-top: 15px;
+  color: #FFF;
+  font-size: 25px;
+  font-family: 'Titillium Web', sans-serif;
+}
+
 #date{
   position: absolute;
   bottom: 10px;
-  left: 10px;
+  left: 15px;
   color: #FFF;
   font-size: 25px;
   font-family: 'Titillium Web', sans-serif;
 }
 
 /* ------------ content ------------ */
-.hisae {
-  color: white;
-  padding-left: 30px;
-  padding-top: 15px;
-}
-
 .content{
   width:380px;
   height: 350px;
@@ -162,3 +171,5 @@ body{
   font-family: 'Titillium Web', sans-serif;
   font-size: 20px;
 }
+
+
