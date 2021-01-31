@@ -5,14 +5,12 @@ body{
   background-color: rgba(0,0,0,0.1);
   font-family: 'Titillium Web', sans-serif;
 }
-
 /* ------------ container ------------ */
 .container{
   padding-top:30px;
   width:380px;
   margin:0 auto;
 }
-
 /* ------------ header ------------ */
 .header{
   width: 380px;
@@ -23,17 +21,14 @@ body{
   border-radius: 15px 15px 0 0;
   position: relative;
 }
-
-
 .overlay{
   width: 380px;
   height:200px;
-  background: rgb(5, 145, 5);
+  background: rgba(90, 146, 90, 0.993);
   mix-blend-mode: overlay;
   border-radius: inherit;
-  opacity: 0.3;
+  /* opacity: 0.5; */
 }
-
 .clear{
   width : 30px;
   height: 30px;
@@ -51,20 +46,15 @@ body{
   text-shadow: 4px 6px 7px #000;
   transform: rotate(45deg);
 }
-
 .hisae{
   position: absolute;
   bottom: 125px;
   left: 15px;
-  z-index: 10;
-  /* padding-left: 15px;
-  padding-top: 15px; */
   color: #FFF;
   font-size: 25px;
   font-family: 'Titillium Web', sans-serif;
   text-shadow: 1px 3px 5px #000;
 }
-
 #date{
   position: absolute;
   bottom: 10px;
@@ -74,7 +64,6 @@ body{
   font-family: 'Titillium Web', sans-serif;
   text-shadow: 1px 3px 5px #000;
 }
-
 /* ------------ content ------------ */
 .content{
   width:380px;
@@ -151,7 +140,6 @@ body{
   font-size: 40px;
   color: #4162f6;
 }
-
 .add-to-do input{
   position: absolute;
   left: 50px;
@@ -182,5 +170,3 @@ body{
   font-family: 'Titillium Web', sans-serif;
   font-size: 20px;
 }
-
-
