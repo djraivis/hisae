@@ -8,7 +8,7 @@ body{
 
 /* ------------ container ------------ */
 .container{
-  padding:10px;
+  padding-top:30px;
   width:380px;
   margin:0 auto;
 }
@@ -23,11 +23,17 @@ body{
   border-radius: 15px 15px 0 0;
   position: relative;
 }
+
+
 .overlay{
-  background: rgba(1, 0, 12, 0.363);
+  width: 380px;
+  height:200px;
+  background: rgb(5, 167, 5);
   mix-blend-mode: overlay;
   border-radius: inherit;
+  opacity: 0.2;
 }
+
 .clear{
   width : 30px;
   height: 30px;
@@ -38,21 +44,25 @@ body{
 .clear i{
   font-size: 30px;
   color: #FFF;
+  text-shadow: 1px 3px 5px #000;
 }
 .clear i:hover{
   cursor: pointer;
-  text-shadow: 1px 3px 5px #000;
+  text-shadow: 4px 6px 7px #000;
   transform: rotate(45deg);
 }
 
 .hisae{
-  position: relative;
+  position: absolute;
+  bottom: 125px;
+  left: 15px;
   z-index: 10;
-  padding-left: 15px;
-  padding-top: 15px;
+  /* padding-left: 15px;
+  padding-top: 15px; */
   color: #FFF;
   font-size: 25px;
   font-family: 'Titillium Web', sans-serif;
+  text-shadow: 1px 3px 5px #000;
 }
 
 #date{
@@ -62,6 +72,7 @@ body{
   color: #FFF;
   font-size: 25px;
   font-family: 'Titillium Web', sans-serif;
+  text-shadow: 1px 3px 5px #000;
 }
 
 /* ------------ content ------------ */
