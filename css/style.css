@@ -28,10 +28,10 @@ body{
 .overlay{
   width: 380px;
   height:200px;
-  background: rgb(5, 167, 5);
+  background: rgb(5, 145, 5);
   mix-blend-mode: overlay;
   border-radius: inherit;
-  opacity: 0.2;
+  opacity: 0.3;
 }
 
 .clear{
