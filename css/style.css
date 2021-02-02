@@ -150,7 +150,6 @@ body{
   border: none;
   font-size: 20px;
   padding-left:10px;
-  opacity: 0.5;
 }
 .add-to-do input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
   color: #4162f6;
