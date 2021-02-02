@@ -64,6 +64,7 @@ body{
   font-family: 'Titillium Web', sans-serif;
   text-shadow: 1px 3px 5px #000;
 }
+
 /* ------------ content ------------ */
 .content{
   width:380px;
@@ -149,6 +150,7 @@ body{
   border: none;
   font-size: 20px;
   padding-left:10px;
+  opacity: 0.5;
 }
 .add-to-do input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
   color: #4162f6;
