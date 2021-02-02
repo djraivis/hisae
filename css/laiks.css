@@ -1,0 +1,19 @@
+.laiks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.laiks li {
+  list-style: none;
+  margin-left: 10px;
+  
+  justify-content: center;
+}
+
+span {
+  /* display: block;
+  padding: 10px; */
+  letter-spacing: 0.1em;
+}
