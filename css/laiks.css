@@ -2,13 +2,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
-
+  overflow: hidden;
 }
 
 .laiks li {
   list-style: none;
   margin-left: 10px;
-  
+  overflow: hidden;
   justify-content: center;
 }
 
