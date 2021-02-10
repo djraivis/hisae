@@ -31,7 +31,7 @@
   animation: leaf3 8s infinite alternate-reverse ease-in-out;
 }
 .mejiro1 {
-  top: 20%;
+  top: 18%;
   left: 50%;
   width: 10%;
   transform: rotate(110deg);
@@ -151,8 +151,8 @@
     width: 4%;
   }
   .mejiro2 {
-    top: 23%;
+    top: 20%;
     left: 60%;
-    width: 2%;
+    width: 3%;
   }
 }
