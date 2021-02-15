@@ -24,7 +24,7 @@
 }
 .leaf3 {
   top: 68%;
-  left: 60%;
+  left: 80%;
   width: 5%;
   transform: rotate(210deg);
   filter: drop-shadow(-22px -12px 7px rgba(0, 0, 0, 0.5));
@@ -79,7 +79,7 @@
 @keyframes mejiro1 {
 
   from {
-    transform: translateY(440px) rotate(400deg);
+    transform: translateY(60px) rotate(400deg);
   }
 
   to {
@@ -114,7 +114,7 @@
   }
   .leaf3 {
     top: 74%;
-    left: 52%;
+    left: 68%;
     width: 3%;
   }
   .mejiro1 {
@@ -142,7 +142,7 @@
   }
   .leaf3 {
     top: 70%;
-    left: 52%;
+    left: 62%;
     width: 2%;
   }
   .mejiro1 {
