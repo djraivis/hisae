@@ -47,7 +47,7 @@
     },
     convertHourByTimeZone: function(h) {
       // order Tokyo, Riga, London
-      var arr = [9, 2, 0,];
+      var arr = [9, 3, 1,];
       var hourArr = [];
 
       for(var i = 0; i < 3; i++) {
