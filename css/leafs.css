@@ -23,15 +23,15 @@
   animation: leaf2 5s infinite alternate-reverse ease-in-out;
 }
 .leaf3 {
-  top: 68%;
+  top: 13%;
   left: 80%;
-  width: 5%;
+  width: 3%;
   transform: rotate(210deg);
   filter: drop-shadow(-22px -12px 7px rgba(0, 0, 0, 0.5));
   animation: leaf3 6s infinite alternate-reverse ease-in-out;
 }
 .mejiro1 {
-  top: 18%;
+  top: 8%;
   left: 55%;
   width: 10%;
   transform: rotate(110deg);
@@ -69,21 +69,21 @@
 }
 @keyframes leaf3 {
   from {
-    transform: translateY(70px) rotate(210deg);
+    transform: translateY(20px) rotate(210deg);
   }
   to {
-    transform: translateY(0) rotate(260deg);
+    transform: translateY(10px) rotate(230deg);
   }
 }
 
 @keyframes mejiro1 {
 
   from {
-    transform: translateY(60px) rotate(400deg);
+    transform: translateY(30px) rotate(380deg);
   }
 
   to {
-    transform: translateY(0) rotate(320deg);
+    transform: translateY(15px) rotate(340deg);
   }
 }
 
