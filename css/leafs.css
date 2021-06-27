@@ -32,7 +32,7 @@
 .mejiro1 {
   top: 8%;
   left: 55%;
-  width: 6%;
+  width: 12%;
   transform: rotate(110deg);
   filter: drop-shadow(10px 18px 7px rgba(0, 0, 0, 0.5));
   animation: mejiro1 8s infinite alternate-reverse ease-in-out;
@@ -105,7 +105,7 @@
   .mejiro1 {
     top: 8%;
     left: 50%;
-    width: 6%;
+    width: 8%;
   }
 }
 
@@ -128,6 +128,6 @@
   .mejiro1 {
     top: 8%;
     left: 50%;
-    width: 2%;
+    width: 4%;
   }
 }

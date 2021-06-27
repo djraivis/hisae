@@ -26,7 +26,7 @@ img {
 .header {
   width: 380px;
   height: 200px;
-  background-image: url('/img/Paparde.jpg');
+  background-image: url('/img/vecaki.jpeg');
   background-size: 100% 200%;
   background-repeat: no-repeat;
   border-radius: 15px 15px 0 0;
@@ -35,7 +35,7 @@ img {
 .overlay {
   width: 380px;
   height: 200px;
-  background: rgba(90, 146, 90, 0.993);
+  /* background: rgba(194, 22, 165, 0.541); */
   mix-blend-mode: overlay;
   border-radius: inherit;
   /* opacity: 0.5; */
