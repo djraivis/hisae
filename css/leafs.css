@@ -30,12 +30,13 @@
   animation: leaf3 6s infinite alternate-reverse ease-in-out;
 }
 .mejiro1 {
-  top: 8%;
-  left: 55%;
-  width: 12%;
+  top: 15%;
+  left: 42%;
+  width: 10%;
   transform: rotate(110deg);
+  transform: scaleY(-1);
   filter: drop-shadow(10px 18px 7px rgba(0, 0, 0, 0.5));
-  animation: mejiro1 8s infinite alternate-reverse ease-in-out;
+  animation: mejiro1 10s infinite alternate-reverse ease-in-out;
 }
 
 @keyframes leaf1 {
@@ -66,11 +67,11 @@
 
 @keyframes mejiro1 {
   from {
-    transform: translateY(30px) rotate(380deg);
+    transform: translateY(80px) rotate(380deg);
   }
 
   to {
-    transform: translateY(15px) rotate(340deg);
+    transform: translateY(15px) rotate(320deg);
   }
 }
 
@@ -103,9 +104,9 @@
     width: 3%;
   }
   .mejiro1 {
-    top: 8%;
-    left: 50%;
-    width: 8%;
+    top: 12%;
+    left: 46%;
+    width: 6%;
   }
 }
 
@@ -126,8 +127,8 @@
     width: 1%;
   }
   .mejiro1 {
-    top: 8%;
-    left: 50%;
-    width: 4%;
+    top: 14%;
+    left: 47%;
+    width: 5%;
   }
 }

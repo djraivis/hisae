@@ -1,7 +1,7 @@
 body {
   padding: 0;
   margin: 0;
-  background-color: rgba(0, 0, 0, 0.719);
+  background-color: rgb(236, 226, 226);
   font-family: 'Titillium Web', sans-serif;
   /* background-color: rgb(95, 110, 93); */
   /* background-image: url('../img/todo5.jpg'); */
@@ -26,7 +26,7 @@ img {
 .header {
   width: 380px;
   height: 200px;
-  background-image: url('/img/vecaki.jpeg');
+  background-image: url('/img/waiting-for-you-soon.jpg');
   background-size: 100% 200%;
   background-repeat: no-repeat;
   border-radius: 15px 15px 0 0;
@@ -35,7 +35,7 @@ img {
 .overlay {
   width: 380px;
   height: 200px;
-  /* background: rgba(194, 22, 165, 0.541); */
+  background: rgba(22, 91, 194, 0.541);
   mix-blend-mode: overlay;
   border-radius: inherit;
   /* opacity: 0.5; */
