@@ -26,7 +26,7 @@ img {
 .header {
   width: 380px;
   height: 200px;
-  background-image: url('/img/waiting-for-you-soon.jpg');
+  background-image: url('/img/43042.jpg');
   background-size: 100% 200%;
   background-repeat: no-repeat;
   border-radius: 15px 15px 0 0;
@@ -35,10 +35,10 @@ img {
 .overlay {
   width: 380px;
   height: 200px;
-  background: rgba(22, 91, 194, 0.541);
+  /* background: rgba(12, 190, 56, 0.541); */
   mix-blend-mode: overlay;
   border-radius: inherit;
-  /* opacity: 0.5; */
+  opacity: 0.5;
 }
 .clear {
   width: 30px;
