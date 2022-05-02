@@ -1,25 +1,24 @@
 .clock-container {
-  margin-top: -12px;
-  
-  }
-  
-  .laiks {
+    margin-top: -12px;
+}
+
+.laiks {
     display: flex;
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    background: rgba(4, 58, 4, 0.918);
+    background: hsl(214deg 95% 56%);
     padding-bottom: 3px;
-  }
-  
-  .laiks li {
+}
+
+.laiks li {
     list-style: none;
     overflow: hidden;
     justify-content: center;
     color: aliceblue;
-    /* font-family: 'Titillium Web', sans-serif; */
-  }
-  
-  span {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+span {
     letter-spacing: 0.1em;
-  }
+}
