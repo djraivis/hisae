@@ -57,10 +57,8 @@
         } else if (hour < 0) {
           hour = 24 + hour
         }
-
         // push
         hourArr.push(hour)
-
       }
 
       return hourArr
